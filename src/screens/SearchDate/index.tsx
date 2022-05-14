@@ -3,7 +3,7 @@ import { format } from 'date-fns';
 import { useTheme } from 'styled-components/native';
 import { useNavigation } from '@react-navigation/native';
 
-import { getPlatformDate } from "../../utils/getPlataformDate"
+import { getPlatformDate } from "../../shared/utils/getPlataformDate"
 import {
   Calendar, DayProps, generateInterval,
   MarkedDateProps
@@ -32,7 +32,7 @@ interface SearchPeriodProps {
 export default function SearchDate() {
   const theme = useTheme();
   const navigation = useNavigation();
-  const { articles, setIsOpenModal, findByIntervalDates } = useArticles()
+  const { findByIntervalDates } = useArticles()
 
   const [lastSelectedDate, setLastSelectedDate] = useState<DayProps>({} as DayProps);
   const [markedDates, setMarkedDates] = useState<MarkedDateProps>({} as MarkedDateProps);

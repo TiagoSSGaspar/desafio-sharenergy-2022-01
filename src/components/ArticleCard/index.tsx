@@ -6,7 +6,7 @@ import {
   CardContent, Title, Paragraph,
   Wrapper, Icon, PublishedAt
 } from "./style";
-import { convertDatePTBR } from "../../utils/convertDate";
+import { convertDatePTBR } from "../../shared/utils/convertDate";
 
 interface Props {
   data: ArticleDTO

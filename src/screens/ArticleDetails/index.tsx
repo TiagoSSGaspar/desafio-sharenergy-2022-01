@@ -13,7 +13,7 @@ import { useArticles } from '../../context/useArticles';
 import { BackButton } from '../../components/BackButton';
 import { useTheme } from 'styled-components/native';
 import Header from '../../components/Header';
-import { convertDatePTBR } from '../../utils/convertDate';
+import { convertDatePTBR } from '../../shared/utils/convertDate';
 import { Linking } from 'react-native';
 
 

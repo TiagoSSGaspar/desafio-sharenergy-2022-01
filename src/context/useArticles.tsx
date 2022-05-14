@@ -2,11 +2,8 @@
 import React, { ReactNode, createContext, useState, useContext, useEffect, useCallback } from "react";
 import { Alert } from "react-native";
 
-import { format, formatISO } from "date-fns";
-import ptBR from 'date-fns/locale/pt-BR'
-import { api } from "../utils/api";
-import { getPlatformDate } from "../utils/getPlataformDate";
-import { convertDateISO } from "../utils/convertDate";
+import { api } from "../shared/utils/api";
+import { convertDateISO } from "../shared/utils/convertDate";
 
 interface IArticleProviderProps {
   children: ReactNode
