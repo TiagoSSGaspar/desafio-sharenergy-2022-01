@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "SHARENERGY-NEWS",
+    "slug": "SHARENERGY-NEWS",
+    "version": "1.0.0",
+    "icon": "./assets/icon.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "br.com.sharenergy",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "br.com.sharenergy",
+      "versionCode": 1
+    }
+  }
+}
